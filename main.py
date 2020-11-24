@@ -10,6 +10,7 @@ class Countries:
 
     def __iter__(self):
         return self
+
     def __next__(self):
         if self.country_index == len(self.file):
             raise StopIteration
