@@ -10,9 +10,7 @@ def md5_hash(some_file):
 
 
 if __name__ == '__main__':
-    some_f = open('countries.json', 'r')
+    some_f = open(input(), 'r')
     for line in md5_hash(some_f):
         print(line.hexdigest())
-
-
 
